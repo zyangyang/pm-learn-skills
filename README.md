@@ -1,11 +1,11 @@
 ﻿# PM Learn - 产品经理技术学习助手
 
-> 帮产品经理深度学习技术文档的 TRAE 斜杠命令（Slash Command）。
+> 帮产品经理深度学习技术文档的SKILLS（技能），可以发给Claude code、codex、Trae、Qoder、WorkBuddy等桌面Agent安装使用。
 > 通过「提问 → 讲解 → 总结 → 归档」的四步闭环，把复杂技术概念转化为可决策、可复用的结构化知识。
 
 ## 这是什么
 
-`pm-learn` 是一个面向产品经理的 TRAE IDE 技能，安装后可通过 `/pm-learn` 调用。它不是普通聊天机器人，而是一个**结构化学习框架**：
+`pm-learn` 是一个面向产品经理的skill技能，安装后可通过 `/pm-learn` 调用。它不是普通聊天机器人，而是一个**结构化学习框架**：
 
 - 拿到技术文档/链接/概念 → 按五层结构讲解
 - 回答"和 XX 有什么区别" → 多维度对比表
@@ -23,9 +23,11 @@
 
 或者在 TRAE IDE 的命令面板中执行"导入技能"并选择本仓库。
 
+其它桌面Agent产品同样适用，可以把本次仓库地址发给Claude code、codex、Trae、Qoder、WorkBuddy让其安装
+
 ## 使用
 
-在 TRAE 对话框中直接输入：
+示例：在 TRAE 对话框中直接输入：
 
 ```
 /pm-learn https://docs.langchain.com/oss/python/langchain/mcp 给我讲解一下
